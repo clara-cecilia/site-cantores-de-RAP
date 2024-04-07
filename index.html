@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <style>
+        /*cabeçalho*/
+        .header {
+            background-color: rgba(221, 137, 69, 0.945);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        body {
+            background-color: black;
+            color: rgb(160, 105, 22);
+
+        }
+
+        ul {
+            list-style-type: none;
+            /*Remove os pontos da lista*/
+            margin: 0;
+            /*remover as configurações padrão do navegador*/
+            padding: 0;
+        }
+
+        li {
+            font-weight: bold;
+            float: left;
+            /* Faz com que os elementos da lista flutuem para a esquerda */
+            width: 50%;
+            /* Cada item da lista ocupa 50% da largura da linha */
+            box-sizing: border-box;
+            /* Considera o padding e a borda no cálculo da largura */
+            padding: 10px;
+            /* Espaçamento interno para as imagens */
+        }
+
+        li:nth-child(odd) {
+            clear: left;
+            /* Garante que os itens ímpares sejam posicionados abaixo dos itens pares */
+        }
+
+        img {
+            width: 100%;
+            /* Assegura que a imagem ocupe todo o espaço disponível no contêiner */
+            display: block;
+            /* Remove espaços extras abaixo das imagens */
+        }
+
+        .footer {
+            clear: both;
+            background-color: rgba(221, 137, 69, 0.945);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Cantores</h1>
+    </div>
+
+    <center><h2>Alguns dos cantores BR mais destacados da cena do RAP</h2></center>
+
+    <ul>
+        <li>Baco Exu do Blues
+            <a href="./equipe/pessoa1.html"><img src="./imagens/baco_exu.jpg" width="30%" height="15%"></a>
+        </li>
+        <li>Mc luanna
+            <a href="./equipe/pessoa2.html"><img src="./imagens/mc-luanna.jpg" width="30%" height="15%"></a>
+        </li>
+        <li>Djonga
+            <a href="./equipe/pessoa4.html"><img src="./imagens/djonga.jpg" width="30%" height="15%"></a>
+        </li>
+        <li>Gloria Groove
+            <a href="./equipe/pessoa5.html"><img src="./imagens/gloria_groove.png" width="30%" height="15%"></a>
+        </li>
+    </ul>
+
+
+    <div class="footer">
+        <h2>Clique na imagem e saiba mais!</h2>
+        <p>Autores: Auderi Lopes de Souza Junior, Clara Cecilia Onofre de Freitas e Danilo dos santos silva</p>
+    </div>
+
+</body>
+
+</html>
